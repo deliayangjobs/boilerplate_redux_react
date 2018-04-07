@@ -1,7 +1,7 @@
 import _ from 'lodash';
 import { FETCH_POSTS } from '../actions';
 
-export default function(state=[], action) {
+export default function(state={}, action) {
     switch(action.type) {
         case FETCH_POSTS:
             // lodash mapKeys function args [{id:1, name:'dd'}, ...]
